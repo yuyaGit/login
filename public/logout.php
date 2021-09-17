@@ -9,7 +9,6 @@ if (!$logout = filter_input(INPUT_POST, "logout")) {
 
 
 //ログインしているか判定し、セッションが切れていたらログインしてくださいとメッセージを出す
-
 $result = UserLogic::checkLogin();
 
 if (!$result) {
