@@ -91,8 +91,6 @@ class UserLogic
         if (isset($_SESSION["login_user"]) && $_SESSION["login_user"]["id"] > 0) {
             return $result = true;
         }
-
-
         return $result;
     }
 
